@@ -12,7 +12,6 @@
     #include <unistd.h>
     #include <fcntl.h>
     #include <sys/syscall.h>
-    #include <linux/random.h>
     #if defined(GRND_NONBLOCK)
         #define USE_GETRANDOM
     #endif
